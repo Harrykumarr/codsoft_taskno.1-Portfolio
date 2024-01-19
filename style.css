@@ -1,0 +1,160 @@
+/* header */
+.Header{
+   background-color: #EEEEEE;
+   padding-bottom: 10px;
+}
+.logo{
+    font-family: 'Sacramento', 'cursive';
+    font-weight: 900;
+}
+.heading-about{
+    font-family: 'Sacramento', 'cursive';
+    text-align: center;
+    font-size: 60px;
+}
+
+#aboutp1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+/* about section */
+.About{
+    background-color: #32E0C4;
+}
+.imagep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#aboutp2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.hello{
+    font-family: 'Sacramento', 'cursive';
+    text-align: center;
+    font-size: 50px;
+}
+.aboutdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.imagep img{
+    border-radius: 20%;
+}
+/* skills */
+.skills{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows:300px 200px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.grid2{
+    grid-area: 1/2/2/3;
+    font-size: x-large;
+}
+
+.grid4{
+    grid-area: 2/2/3/3;    
+    font-size: x-large;
+}
+.development img{
+    grid-area: 1/1/2/2;
+    justify-content: center;
+}
+
+.programming img{
+    grid-area: 2/1/3/2;
+    justify-content: center;
+}
+
+#skillsidp{
+    font-family: 'Sacramento', 'cursive';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+/* project */
+#projectsidp{
+    font-family: 'Sacramento', 'cursive';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.Projects{
+    text-align: center;
+    font-size: x-large;
+    background-color: #0D7377;
+    padding-bottom: 60px;
+    color: #EEEEEE;
+}
+
+.projects3{
+    width:100%;
+    display : flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    height:700px;
+}
+
+.card-body{
+    background-color: #FFE5B4;
+    
+}
+/* resume */
+#resumeidp{
+    font-family: 'Sacramento', 'cursive';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.resume{
+    text-align: center;
+    font-size: x-large;
+    background-color: #0D7377;
+    padding-bottom: 60px;
+    color:#EEEEEE;
+}
+
+button{
+    background: black;
+}
+
+a {
+    text-decoration: none !important;
+  }
+/* contact */
+#contactmeidp{
+    font-family: 'Sacramento', 'cursive';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact{
+    text-align: center;
+    font-size: x-large;
+}
+/* footer */
+.bottom-container{
+    background-color: black;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #EEEEEE;
+    align-items: center;
+}
